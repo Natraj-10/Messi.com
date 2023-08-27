@@ -1,0 +1,86 @@
+body
+{
+	background-color:rgb(58, 202, 255);
+}
+.Front
+{
+	
+	width:1475px;
+	height:1000px;
+	background:url("5LM.jpg");
+	background-size: 1475px 1000px;
+	margin-top:-100px;
+	margin-left:-10px;
+	position:relative;
+}
+.flag
+{
+	position:absolute;
+}
+.flag img
+{
+	margin-top:175px;
+	margin-left:105px;
+	width:150px;
+	
+}
+.logo
+{	
+	position:absolute;
+}
+.logo img
+{
+	padding-top:200px;
+	padding-left:1200px;
+	width:150px;
+	opacity: 0;
+    	animation: fadeIn 1s ease-in-out forwards;
+    	animation-delay: 0.5s;
+}
+.language 
+{
+	position:relative;
+	padding-top:400px;
+	padding-left:50px;
+	
+}
+.lan
+{
+	background-color:black;
+	margin:5px;
+	font-size:30px;
+	color:lightgray;
+	border:transparent;
+	text-decoration:none;	
+}
+.lan:hover
+{
+	cursor:pointer;
+	color:white;
+}
+p
+{
+	padding-top:50px;
+	padding-left:1075px;
+	font-size:100px;
+	color:#D9D9D9;
+	opacity: 0;
+    	animation: fadeIn 1s ease-in-out forwards;
+    	animation-delay: 0.5s;
+}
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
+
+#next_match
+{
+	background-color:rgb(67, 161, 213);
+	margin:-10px;
+	padding-top:1.2cm;
+	padding-bottom:1cm;
+	padding-left:8cm;
+	color:white;
+	font-size:50px;
+}
