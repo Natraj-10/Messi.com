@@ -1,6 +1,6 @@
 body
 {
-	background-color:white;
+	background-color:#F0F8FF;
 }
 .Front
 {
@@ -22,7 +22,9 @@ body
 	margin-top:175px;
 	margin-left:105px;
 	width:150px;
-	
+	opacity: 0;
+	animation: fadeIn 1s ease-in-out forwards;
+    	animation-delay: 0.5s;
 }
 .logo
 {	
@@ -51,14 +53,17 @@ body
 	font-size:30px;
 	color:lightgray;
 	border:transparent;
-	text-decoration:none;	
+	text-decoration:none;
+	opacity: 0;
+	animation: fadeIn 1s ease-in-out forwards;
+    	animation-delay: 0.5s;	
 }
 .lan:hover
 {
 	cursor:pointer;
 	color:white;
 }
-p
+.name
 {
 	padding-top:50px;
 	padding-left:1075px;
@@ -74,15 +79,160 @@ p
         opacity: 1;
     }
 }
-
 #next_match
 {
-	background-color:rgb(67, 161, 213);
+	background-color:#070B16;
 	margin:-10px;
-	padding-top:1.2cm;
-	padding-bottom:1cm;
-	padding-left:8cm;
-	color:white;
-	font-size:50px;
+	padding-top:0.8cm;
+	padding-bottom:1.25cm;
+	padding-left:9cm;
+	color:#6CACE4;
+	font-size:60px;
+}
+#timer {
+	color:white;	
+    	text-align: center;
+    	font-size: 60px;
+	float:right;
+	margin-right:9.25cm;
 }
 
+#time_name
+{
+	color:white;
+	font-size:20px;
+	float:right;
+	margin-right:9.25cm;	
+}
+.left
+{
+	float:left;
+}
+.dribbling
+{	
+	width:503px;
+	height:971px;
+	margin:1.5cm;
+	background:url("dribbling.png");
+	background-size: 503px 971px;
+}
+.welcome
+{	
+	padding-left:75px;
+	margin-left:-0.3cm;
+	margin-top:-17cm;
+	width:410px;
+	height:70px;
+	background-color:rgba(255,255,255,0.95);
+	color:#6CACE4;
+	font-size:65px;
+}
+.note
+{	
+	padding-left:75px;	
+	height:70px;
+	width:505px;
+	margin-left:-0.3cm;
+	margin-top:-1.65cm;
+	background-color:#6CACE4;
+	color:black;
+	font-size:65px;
+}
+.flex
+{
+	display:flex;
+}
+.right1
+{	
+	margin-top:7cm;
+	background-color:#4A4A4A;
+	width:200px;
+	height:621px;
+	font-size:30px;
+	color:white;
+}
+.right1:hover
+{
+	background-color:#1C1C1C;
+}
+.match1
+{
+	color:black;
+	font-size:40px;
+	margin-left:37.5px;
+	width:120px;
+	height:100px;
+	background-color:#6CACE4;
+	text-align:center;
+}
+.status1
+{
+	text-align:center;
+}
+.right2
+{
+	font-size:30px;
+	margin-top:6cm;
+	margin-left:30px;
+	background-color:#4A4A4A;
+	width:200px;
+	height:671px;
+	color:white;
+}
+.right2:hover
+{
+	background-color:#1C1C1C;
+}
+.match2
+{
+	color:black;
+	font-size:40px;
+	margin-left:37.5px;
+	width:120px;
+	height:100px;
+	background-color:#6CACE4;
+	text-align:center;
+}
+.status2
+{
+	text-align:center;
+}
+.right3
+{	
+	font-size:30px;
+	margin-top:7cm;
+	margin-left:30px;
+	background-color:#4A4A4A;
+	width:200px;
+	height:621px;
+	color:white;
+}
+.right3:hover
+{
+	background-color:#1C1C1C;
+}
+.match3
+{
+	color:black;
+	font-size:40px;
+	margin-left:37.5px;
+	width:120px;
+	height:100px;
+	background-color:#6CACE4;
+	text-align:center;
+}
+.status3
+{
+	text-align:center;
+}
+img
+{
+	width:60px;
+	margin-left:1.85cm;
+}
+.teams
+{
+	text-align:center;
+	font-size:30px;
+	color:#6CACE4;
+}
