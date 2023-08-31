@@ -48,7 +48,7 @@ body
 }
 .lan
 {
-	background-color:black;
+	background-color:#070B16;
 	margin:5px;
 	font-size:30px;
 	color:lightgray;
@@ -81,6 +81,8 @@ body
 }
 #next_match
 {
+	width:1135px;
+	height:70px;
 	background-color:#070B16;
 	margin:-10px;
 	padding-top:0.8cm;
