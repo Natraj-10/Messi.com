@@ -5,7 +5,7 @@ body
 .Front
 {
 	
-	width:1475px;
+	width:1525px;
 	height:1000px;
 	background:url("5LM.jpg");
 	background-size: 1475px 1000px;
@@ -81,18 +81,18 @@ body
 }
 #next_match
 {
-	width:1210px;
+	width:1260px;
 	height:70px;
 	background-color:#070B16;
 	margin:-10px;
 	padding-top:0.8cm;
 	padding-bottom:1.25cm;
 	padding-left:7cm;
-	color:white;
+	color:#6CACE4;
 	font-size:50px;
 }
 #timer {
-	color:#6CACE4;	
+	color:white;	
     	text-align: center;
     	font-size: 60px;
 	float:right;
@@ -100,7 +100,7 @@ body
 }
 #time_name
 {
-	color:#6CACE4;
+	color:white;
 	font-size:20px;
 	float:right;
 	margin-right:7.25cm;	
