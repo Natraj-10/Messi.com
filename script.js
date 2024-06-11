@@ -1,4 +1,4 @@
-const targetDate = new Date("2023-09-04T07:30:00");
+const targetDate = new Date("2024-06-20T07:30:00");
 const timerElement = document.getElementById("timer");
 
 function updateCountdown() {
