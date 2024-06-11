@@ -5,7 +5,7 @@ body
 .Front
 {
 	
-	width:1475px;
+	width:1525px;
 	height:1000px;
 	background:url("5LM.jpg");
 	background-size: 1475px 1000px;
@@ -81,7 +81,7 @@ body
 }
 #next_match
 {
-	width:1135px;
+	width:1185px;
 	height:60px;
 	background-color:#070B16;
 	margin:-10px;
